@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@300&display=swap');
+
+body {
+  background-color: #fff9f3 !important;
+  font-family: 'Mitr', sans-serif !important;
+  min-width: 370px;
+}
+
+strong{
+    margin-top: 40px;
+}
+
+/* กรอบ */
+.appeal-container {
+    /* padding-left: -20px;  */
+    margin-left: 100px;
+    padding-top: 40px;
+    width: 80%;
+    height: auto;
+    /* border-radius: 25px; */
+}
+
+.appeal-content {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    max-width: 100%;
+    margin: 20px;
+    overflow: hidden;
+    width: 100%;
+}
+
+
+.appeal-content-info {
+    padding: 20px;
+    position: relative;
+    width: 100%;
+}
+
+.dataTables_wrapper{
+    padding: 15px;
+    /* margin-left: 50px;
+    margin-top: 10px;
+    margin-right: -65px; */
+    background-color: #fff;
+}
+
+
+.dataTables_wrapper label{
+    margin-bottom: 25px;
+    margin-right: 95px;
+}
+
+
+.dataTables_paginate{
+    margin-top: 15px;
+    margin-right: 75px;
+}
+
+footer {
+    margin-top: 5%;
+    text-align: center end;
+    padding: 2%;
+    background-color: #97372f;
+    color: white;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    opacity: 0.9;
+
+}
+
+footer p {
+    font-size: 85%;
+}
+
+.ft{
+    text-align: center;
+}
+.ft img{
+    height: 60px;
+}
+
+
+@media(max-width: 992px) {
+    .appeal-container {
+        margin: 20px 10px 20px 120px !important;
+    }
+}
+
+@media(max-width: 648px) {
+    .appeal-container {
+        margin: 20px 10px 20px 10px !important;
+        width: 90% !important;
+
+    }
+
+}
+
+@media(max-width: 1612){
+    .ft{
+margin-bottom: -20px;
+    }
+}

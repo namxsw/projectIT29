@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@300&display=swap');
+
+body {
+  background-color: #fff9f3 !important;
+  font-family: 'Mitr', sans-serif !important;
+  min-width: 370px;
+/* margin: 50px; */
+}
+
+
+
+.header {
+    color: #97372f;
+    text-align: center;
+}
+
+h5 {
+    margin-left: 1700px;
+    margin-top: -50px;
+    color: #97372f;
+}
+
+
+
+
+/* banner */
+.carousel-inner {
+    width: 700px;
+    padding: 30px;
+}
+
+
+/* ค้นหา */
+
+.ser {
+    z-index: -1;
+}
+
+.search-brn {
+    /* margin-top: 20px; */
+    padding-left: 30%;
+}
+
+.form-select {
+    width: 250px !important;
+}
+
+.search h4 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.input-group {
+    margin-top: 60px;
+
+}
+
+
+.form-control {
+    height: 25px;
+}
+
+
+
+/* ดีเทล */
+.title h3 {
+    margin-top: 60px;
+    margin-left: 18%;
+}
+
+#line {
+    margin: 10px 250px;
+    border-top: 0.3px solid black;
+}
+
+/* กรอบ */
+
+.appeal-container {
+    margin-left: 25%;
+    margin-top: 10px;
+    /* padding: 15px; */
+    width: 49%;
+    border-radius: 25px;
+}
+
+.appeal-content {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    max-width: 100%;
+    margin: 20px;
+    overflow: hidden;
+    width: 95%;
+}
+
+.appeal-content h5 {
+    margin: 0;
+    text-transform: uppercase;
+}
+
+
+.appeal-preview {
+    padding: 30px;
+    font-weight: 400;
+    max-width: 250px;
+}
+
+.appeal-content-info {
+    padding: 30px;
+    position: relative;
+    width: 100%;
+}
+
+.progress-container {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    text-align: right;
+    width: 150px;
+}
+
+
+/* ปุ่มรายละเอียดงาน */
+.btn-detail {
+    background-color: #97372f;
+    display: flexbox;
+    color: #fff;
+    font-size: 16px;
+    padding: 2px 25px;
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+.btn-detail:hover{
+   text-decoration: none;
+   color: #fff;
+   background-color: #d0908a;
+}
+
+
+footer {
+    margin-top: 5%;
+    text-align: center end;
+    padding: 2%;
+    background-color: #97372f;
+    color: white;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    opacity: 0.9;
+}
+
+footer h5 {
+    color: #fff;
+    margin-left: 0;
+}
+
+footer p {
+    font-size: 85%;
+}
+
+.ft {
+    text-align: center;
+}
+
+.ft img {
+    height: 60px;
+}
+
+
+@media(max-width: 1200px) {
+    .carousel-inner {
+        height: auto;
+    }
+}
+
+@media(max-width: 992px) {
+
+    .search-brn {
+       align-items: center !important;
+       padding-left: 20%;
+    }
+
+    .form-control{
+        width: 78% !important;
+    }
+
+    .post{
+        margin-bottom: 50px !important;
+    }
+
+    .btn-detail{
+       position:block;
+    }
+
+}
+
+
+
+@media(max-width: 720px) {}
+
+
+@media(max-width: 648px) {}

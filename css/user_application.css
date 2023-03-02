@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@300&display=swap');
+
+body {
+  background-color: #fff9f3 !important;
+  font-family: 'Mitr', sans-serif !important;
+  min-width: 370px;
+}
+
+
+/* 1.ส่วนบน */
+#headline{
+    text-align: center;
+}
+
+
+.progress-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #fd560d !important;
+    transition: width .6s ease;
+}
+
+/* ----------------------------------------2.กล่องฟอร์ม------------------------------------------------------------ */
+
+.applybox {
+    margin: 78px 68px 10px 100px ;
+}
+.form-outer{
+    padding: 0px 10% !important;
+}
+
+#stepOne input{
+    margin: 5px auto;
+    margin-left: 5px;
+    padding: .5rem;
+    
+}
+
+#stepTwo{
+    display: none;
+}
+#stepTwo input{
+    margin: 5px auto;
+    margin-left: 5px;
+    padding: .5rem;
+    /* border-radius: 20px; */
+}
+
+.des_input{
+    margin: 0 !important;
+    padding: 0 0 0 5px !important;
+   
+}
+.action-button{
+    margin-top: 20px !important;
+}
+
+
+.submitBtn{
+    margin-top: 10px !important;
+
+}
+
+#next:hover{
+    background: #ffa200;
+    border: none;
+}
+
+#back:hover{
+    background-color: #ffa200;
+    border: none;
+}
+
+#submit{
+    background-color: #022D8C;
+    border: none;
+    margin-left: 5px;
+    padding: 0.5rem;
+}
+
+#submit:hover{
+    background-color: #38a406;
+}
+
+.jobtype{
+    padding: 0 !important;
+    margin-left: 4px;
+}
+
+/* กรอบ */
+.appeal-container {
+margin-left: 25%;
+    padding-top: 30px;
+    width: 45%;
+    height: auto;
+    border-radius: 15px;
+    border: 3px;
+}
+
+.appeal-content {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(0.1, 0.1, 0.1, 0.1);
+    display: flex;
+    max-width: 100%;
+    margin: 20px;
+    overflow: hidden;
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+
+.appeal-content-info {
+    /* padding: 20px; */
+    position: relative;
+    width: 92%;
+}
+
+
+
+footer {
+    margin-top: 5%;
+    text-align: center end;
+    padding: 2%;
+    background-color: #97372f;
+    color: white;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    opacity: 0.9;
+
+}
+
+footer p {
+    font-size: 85%;
+}
+
+.ft{
+    text-align: center;
+}
+.ft img{
+    height: 60px;
+}
+
+
+@media(max-width: 819px){
+    body{
+       
+    }
+
+}

@@ -1,0 +1,42 @@
+body{
+    margin-right: 50px;
+    font-family: sans-serif;
+ }
+ 
+ h2{
+     text-align: center;
+     margin-top: 1000px;
+ }
+ 
+ .form-control{
+     margin-left: 500px;
+     margin-right: 50px;
+ }
+ 
+ .fc1{
+ margin-top: 8px;
+ margin-left: 500px;
+ }
+ 
+ 
+ .form-label1{
+     margin-left: 500px;
+     margin-top: 8px;
+ }
+ 
+ .form-label3{
+     margin-left: 500px;
+ }
+ 
+ .form-label4{
+     margin-left: 500px;
+ }
+ 
+ .btn-send button {
+     height: 50px;
+     width: 150px;
+     background-color: #142b6f;
+     margin-right: 550px;
+   }
+ 
+ 

@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@300&display=swap');
+
+body {
+    background-color: #fff9f3 !important;
+    font-family: 'Mitr', sans-serif !important;
+    margin-top: 90px !important;
+}
+
+/* กรอบ */
+.appeal-container {
+   margin-left: 20px;
+    margin-top: 30px;
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    border: 3px;
+}
+
+.appeal-content {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(0.1, 0.1, 0.1, 0.1);
+    display: flex;
+    max-width: 100%;
+    margin: 20px;
+    overflow: hidden;
+    width: 100%;
+}
+
+
+.appeal-content-info {
+    padding: 20px;
+    position: relative;
+    width: 100%;
+}
+
+
+/* ตาราง */
+
+.dataTables_wrapper {
+    padding: 15px;
+    background-color: #fff;
+    
+}
+
+
+.dataTables_wrapper label {
+    margin-bottom: 25px;
+    margin-right: 95px;
+}
+
+
+.dataTables_paginate {
+    margin-top: 15px;
+    margin-right: 75px;
+}

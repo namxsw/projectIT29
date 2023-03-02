@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@300&display=swap');
+
+body {
+  background-color: #fff9f3 !important;
+  font-family: 'Mitr', sans-serif !important;
+}
+
+
+/* ----------------------banner------------------------------ */
+#content {
+  width: 1350px;
+  /* height: 00px; */
+  margin-right: 10px;
+}
+
+.carousel-item img {
+  height: 32rem;
+  margin-top: 90px;
+}
+
+#carouselExampleIndicators {
+  /* width: 1665px; */
+  width: 90%;
+  margin-left: 200px;
+  padding-top: 30px;
+  border-radius: 30px;
+}
+
+.btn {
+  margin-top: -px;
+  width: 180px;
+  height: 50px;
+  position: absolute;
+  right: 150px;
+}
+
+.tt {
+  margin-top: 50px;
+  margin-left: 200px;
+
+}
+
+/* สร้างประกาศ */
+/* .addjob{
+  margin-top: 30px;
+  margin-left: -30px;
+} */
+
+.modal .modal-dialog .modal-content .modal-heade h4 {
+  text-align: center;
+}
+
+#staticBackdrop {
+  margin-left: -190px;
+}
+
+.dropdown {
+  width: 20px;
+}
+
+.btn-post button {
+  text-align: center;
+  width: 200px;
+  background-color: #2412eb;
+  margin-right: 250px;  
+  margin-bottom: 20px;
+}
+
+
+/* post */
+
+.post h4 {
+  margin-top: 50px;
+  margin-left: 590px;
+}
+
+.post h5 {
+  margin-top: 25px;
+  margin-left: 590px;
+  color: blue;
+}
+
+.detail h6 {
+  margin-left: 1000px;
+}
+
+/* ดีเทล */
+.title h3 {
+  margin-top: 60px;
+  margin-left: 10%;
+}
+
+#line {
+  width: 90%;
+  margin: 10px 200px;
+  border-top: 0.3px solid black;
+}
+
+.pp {
+  margin-top: 6%;
+}
+
+.appeal-container {
+  margin-left: 28%;
+  margin-top: 30px;
+  width: 50%;
+  border-radius: 25px;
+}
+
+.appeal-content {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  max-width: 100%;
+  margin: 20px;
+  overflow: hidden;
+  width: 95%;
+}
+
+
+.appeal-content-info {
+  padding: 30px;
+  position: relative;
+  width: 100%;
+}
+
+.progress-container {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  text-align: right;
+  width: 150px;
+}
+
+
+/* ปุ่มรายละเอียดงาน */
+.btn-detail {
+  background-color: #97372f;
+  display: flexbox;
+  color: #fff;
+  font-size: 16px;
+  padding: 2px 25px;
+  position: absolute;
+  bottom: 20px;
+  right: 40px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+
+
+}
+
+.edit {
+  color: #000;
+}
+
+.del {
+  color: #000;
+}
+
+#ft, #fttext, #fttext2 {
+  display: none;
+}

@@ -1,0 +1,46 @@
+body {
+    background-color: #fff9f3 !important;
+    font-family: sans-serif;
+
+}
+h1{
+    text-align: center;
+    color: #97392f  ; 
+}
+
+.add {
+    margin-left: 84%;
+    margin-top: 3%;
+} 
+
+.table{
+    margin-top: 5%;
+    width: 50%;
+    
+}
+
+
+.appeal-container {
+    padding: 15px;
+    width: 80%;
+    border-radius: 25px;
+    margin-left: 250px;
+  }
+  
+  .appeal-content {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    max-width: 100%;
+    margin: 20px;
+    overflow: hidden;
+    width: 95%;
+  }
+  
+  
+  .appeal-content-info {
+    padding: 30px;
+    position: relative;
+    width: 100%;
+  }

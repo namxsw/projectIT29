@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@300&display=swap');
+
+body {
+    background-color: #fff9f3 !important;
+    font-family: 'Mitr', sans-serif !important;
+}
+/* กรอบ */
+.appeal-container {
+    margin-left: 250px;
+    padding-top: 40px;
+    width: 70%;
+    height: auto;
+
+}
+.appeal-content {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px rgba(0.2, 0.2, 0.2, 0.2);
+    display: flex;
+    max-width: 100%;
+    margin: 20px;
+    overflow: hidden;
+    width: 100%;
+}
+.appeal-content-info {
+    padding: 80px;
+    position: relative;
+    width: 100%;
+}
+/* รูปภาพ */
+.profileUser {
+    align-items: center !important;
+    margin-left: 85%;
+}
+
+.img {
+   align-items: center;
+}
+
+.upimg {
+    text-align: center;
+    /* background-color: yellow ; */
+    margin-top: 20px;
+    border: 300px;
+}
+
+.imgform .form-control{
+    width: 350px ;
+    /* margin-left: 50%; */
+    /* height: 30px; */
+}
+ul li {
+    margin-left: -120px;
+    list-style: none;
+    text-align: center;
+}
+
+.Edit {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.file-input > [type='file'] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 25%;
+    height: 20%;
+    opacity: 0;
+    z-index: 10;
+    cursor: pointer;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.file-input > .button {
+    display: inline-block;
+    cursor: pointer;
+    background: green;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+    margin-right: 8px;
+  }
+  
+  .file-input:hover > .button {
+    background: rgb(1, 99, 1);
+    color: white;
+    border: #333;
+  }
+  
+  .file-input > .label {
+    color: #333;
+    white-space: nowrap;
+    opacity: .3;
+  }
+  
+  .file-input.-chosen > .label {
+    opacity: 1;
+  }
+
+  

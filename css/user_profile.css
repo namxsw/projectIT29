@@ -1,0 +1,11 @@
+				                
+body{margin-top:20px;}
+
+.avatar{
+width:200px;
+height:200px;
+}				              
+
+.imgform .form-control{
+    width: 50px !important;
+}

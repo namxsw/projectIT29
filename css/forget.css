@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@300&display=swap');
+
+body {
+  background-color: #fff9f3 !important;
+  font-family: 'Mitr', sans-serif !important;
+
+}
+.back a i {
+  color: darkgrey;
+  font-size: 50px;
+  margin-top: 30px;
+  margin-left: 30px;
+  }
+  
+
+/* กรอบ */
+
+h3{
+    text-align: center; 
+    }
+
+img{
+    margin-left: 41%;
+    margin-bottom: 25px;
+    width: 100px;
+    height: 100px;
+   }
+   .title h3 {
+     margin-top: 60px;
+     margin-left: 10%;
+   }
+   
+   #line {
+     margin: 10px 120px;
+     border-top: 0.3px solid black;
+   }
+   
+   .appeal-container {
+     margin-left: 30%;
+     margin-top: 20px;
+     padding: 15px;
+     width: 70%;
+   
+   }
+   
+   .appeal-content {
+     background-color: #fff;
+     border-radius: 10px;
+     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+     display: flex;
+     max-width: 100%;
+     margin: 20px;
+     overflow: hidden;
+     width: 50%;
+   }
+   
+   .appeal-content h5 {
+     margin: 0;
+     text-transform: uppercase;
+   }
+   
+   
+   .appeal-preview {
+     padding: 30px;
+     font-weight: 400;
+     max-width: 250px;
+   }
+   
+   .appeal-content-info {
+     padding: 60px;
+     position: relative;
+     width: 100%;
+   }
+   
+   .progress-container {
+     position: absolute;
+     top: 30px;
+     right: 30px;
+     text-align: right;
+     width: 150px;
+   }
+   
+   .regis,.forget{
+   text-decoration: none;
+   }  
+   
+   .input-group{
+     margin-left: -1px;
+   }
+   
+   .input-group .input-group-text .form-control{
+     width: 50px;
+     
+   }

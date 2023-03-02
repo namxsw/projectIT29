@@ -1,0 +1,339 @@
+
+
+body {
+    font-family: sans-serif;
+    background-color: #fff9f3 !important;
+}
+
+.btn-upload{
+    margin-top: 200px;
+    margin-right: 220px;
+}
+
+/* รูปภาพ */
+
+
+.img-upload {
+    position: absolute;
+    /* top: 70px; */
+    margin-top: 200px;
+    right: 0;
+    text-align: center;
+    margin-right: 370px;
+}
+
+
+
+.wrapper.active {
+    border: none;
+}
+
+.wrapper .img-up {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper .img {
+    height: 160px;
+    width: 150px;
+    object-fit: cover;
+
+}
+
+.wrapper .upload-icon {
+    font-size: 90px;
+    color: #acacac;
+}
+
+.wrapper #cancel-btn i {
+    position: absolute;
+    font-size: 20px;
+    right: 10px;
+    top: 10px;
+    color: #3d3c3d;
+    cursor: pointer;
+    display: none;
+}
+
+.wrapper.active:hover #cancel-btn i {
+    display: block;
+}
+
+.wrapper #cancel-btn i:hover {
+    color: #ffffff;
+}
+
+.img-upload #custom-btn {
+    margin-top: 10px;
+    display: block;
+    width: 100%;
+    height: 50px;
+    outline: none;
+    border-radius: 5px;
+    background-color: #2558F4;
+    border-color: #2558F4;
+    color: #fff;
+}
+
+.img-upload #custom-btn:hover {
+    background: yellow;
+    color: #000000;
+    border-color: #6b6b6b;
+}
+
+/* เลือกสถานะ */
+.status .status-name {
+    color: #97372F;
+    margin: 20px 0 0 950px;
+}
+
+.status {
+    position: relative;
+    display: flex;
+    margin-top: 15px;
+    margin-left: 1%;
+}
+
+
+.status select {
+    width: 150px;
+    height: 30px;
+    margin-left: 5px;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 22px;
+}
+
+/* เส้น */
+
+.hr1 {
+    width: 91%;
+    border-top: 1px solid #000000;
+    margin: 30px 0 0 47px;
+}
+
+.program {
+    color: #97372F;
+    margin: 40px 0 0 47px;
+    
+}
+
+.input-program {
+    margin: 25px 0 0 120px;
+
+}
+
+.input-program input {
+    margin-top: 5px;
+    padding: 3px;
+    width: 295px;
+    height: 30px;
+    border-radius: 5px;
+    border-width: thin;
+    background-color: #f7f7f7;
+    padding-left: 20px;
+}
+
+.hr2 {
+    width: 91%;
+    border-top: 1px solid ;
+    margin: 40px 0 0 47px;
+}
+
+/* ข้อมูลส่วนตัว */
+
+.info {
+    color: #97372F;
+    margin: 30px 0 0 47px;
+}
+
+.card .cradID {
+    margin-top: 20px;
+
+}
+
+.input-group .input-group .cradID input{
+    padding: 3px;
+    margin: 30px 0 0 5px;
+    border-radius: 5px;
+    border-width: thin;
+    background-color: #f7f7f7;
+    padding-left: 20px;
+    width: 295px;
+   
+}
+
+.input-info .prefix {
+    margin: 5px 0 0 50px;
+}
+
+.input-info .prefix input{
+    padding: 3px;
+    margin: 60px 0 0 5px;
+    border-radius: 5px;
+    border-width: thin;
+    background-color: #f7f7f7;
+    padding-left: 20px;
+}
+
+.input-info .firstname {
+    margin: -28px 0 0 400px;
+}
+
+.input-info .firstname input{
+    padding: 3px;
+    margin: -28px 0 0 5px;
+    border-radius: 5px;
+    border-width: thin;
+    background-color: #f7f7f7;
+    padding-left: 20px;
+    width: 295px;
+
+}
+
+.input-info .lastname {
+    margin: -28px 0 0 750px;
+}
+
+.input-info .lastname input{
+    padding: 3px;
+    margin: -28px  0 0 5px;
+    border-radius: 5px;
+    border-width: thin;
+    background-color: #f7f7f7;
+    padding-left: 20px;
+    width: 295px;
+
+}
+
+.input-info .birth {
+    margin: 50px 0 0 50px;
+}
+
+.input-info .birth input{
+    padding: 3px;
+    margin: 15px 0 0 5px;
+    border-radius: 5px;
+    border-width: thin;
+    background-color: #f7f7f7;
+    padding-left: 20px;
+    width: 295px;
+}
+
+.input-info .tel {
+    margin: -27px 0 0 500px;
+}
+
+.input-info .tel input{
+    margin: -27px 0 0 5px;
+    border-radius: 5px;
+    border-width: thin;
+    background-color: #f7f7f7;
+    padding: 3px;
+    padding-left: 20px;
+    width: 250px;
+}
+
+.input-info .email {
+    position: absolute;
+    margin:  60px 0 0 50px;
+}
+
+.input-info .email input{
+    margin: -27px 0 0 5px;
+    border-radius: 5px;
+    border-width: thin;
+    background-color: #f7f7f7;
+    padding: 3px;
+    padding-left: 20px;
+    width: 500px;
+}
+
+.input-info .address {
+    margin: 60px 0 0 50px;
+}
+
+.input-info .address input{
+    margin: 80px 0 0 5px;
+    border-radius: 5px;
+    border-width: thin;
+    background-color: #f7f7f7;
+    padding: 3px;
+    padding-left: 20px;
+    width: 750px;
+}
+
+.info1 {
+    margin-left: 5%;
+    margin-top: 20px;
+}
+
+.hr3 {
+    margin-top: 50px;
+    width: 95%;
+    border-top: 1px solid ;
+    /* margin: 40px 0 0 47px; */
+}
+
+
+
+.info2 {
+    color: #97372F;
+    margin-top: 30px;
+    /* margin: 30px 0 0 47px; */
+}
+
+
+/* ปุุ่ม */
+.button{
+    margin-top: 20px;
+    float: right;
+}
+
+
+/* กรอบ */
+.appeal-container {
+    padding-left: 180px;
+    padding-top: 150px;
+    width: 90%;
+    height: auto;
+    border-radius: 25px;
+  }
+  
+  .appeal-content {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    max-width: 100%;
+    margin: 20px;
+    overflow: hidden;
+    width: 95%;
+  }
+  
+  
+  .appeal-content-info {
+    padding: 30px;
+    position: relative;
+    width: 100%;
+  }
+
+.file1 a{
+    text-decoration: none !important;
+    color: #fff;
+}
+
+.file1 a:hover{
+    text-decoration: none !important;
+    color: #fff;
+}
+
+.file2 a{
+    text-decoration: none !important;
+    color: #fff;
+}

@@ -1,0 +1,77 @@
+body {
+    background-color: #fff9f3 !important;
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: #97392f  ;
+}
+
+
+
+/* ฟอร์มเพิ่มแบบทดสอบ   */
+
+.input-group {
+    margin-top: 3%;
+}
+
+.appeal-container {
+    margin-left: 5%;
+    margin-top: 3%;
+    padding: 15px;
+    width: 100%;
+    border-radius: 25px;
+}
+
+.appeal-container1 {
+    margin-left: 5%;
+    margin-top: -3%;
+    padding: 15px;
+    width: 100%;
+    border-radius: 25px;
+}
+
+.appeal-content {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    max-width: 100%;
+    margin: 20px;
+    overflow: hidden;
+    width: 95%;
+}
+
+.appeal-content-info {
+    padding: 30px;
+    position: relative;
+    width: 100%;
+}
+
+
+/* ปุ่มส่ง */
+
+.sent {
+    margin-left: 90%;
+    margin-top: 15px;
+    width: 8%;
+}
+
+.appeal-container2 {
+    margin-left: 5%;
+    padding: 15px;
+    width: 100%;
+    border-radius: 25px;
+}
+
+
+.cancel{
+    width: 8%;
+    margin-left: 82%;
+}
+
+.sent1{
+    float: right;
+    width: 8%;
+}

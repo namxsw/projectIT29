@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@300&display=swap');
+
+body {
+  background-color: #fff9f3 !important;
+  font-family: 'Mitr', sans-serif !important;
+}
+
+.header {
+    color: #97372f;
+    text-align: center;
+}
+
+.item img {
+    margin-top: 15px;
+    width: 100px;
+}
+
+.item h3 {
+    text-align: center;
+    position: relative;
+    margin-top: 5%;
+    margin-left: 5px;
+    color: #97372f;
+}
+
+
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+
+.form-inline ul{
+	list-style: none;
+}
+
+.form-inline {
+	display: inline-block;
+}
+
+.navbar-header.col {
+	padding: 0 !important;
+	position: static;
+}
+
+.navbar .collapse .navbar-nav .nav-link{
+	color: #fff;
+}
+
+.navbar .collapse .navbar-nav a {
+	color: #000;
+
+}
+
+.navbar .collapse .navbar-nav .nav-item {
+	color: #fff;
+	margin-left: 16px;
+	margin-right: 45px;
+}
+
+.nav-link a{
+	color: #fff;
+}
+
+#navbar{
+	z-index: 1000;
+}
+
+.navbar {
+	background: #97372f;
+	padding-left: 16px;
+	padding-right: 16px;
+	border-bottom: 1px solid #d6d6d6;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+	
+}
+
+.navbar .nav-item i {
+	font-size: 25px;
+}
+
+.navbar .dropdown-item i {
+	font-size: 16px;
+	min-width: 22px;
+}
+
+.navbar .nav-item.open>a {
+	background: none !important;
+}
+
+.navbar .dropdown-menu {
+	border-radius: 1px;
+	border-color: #e5e5e5;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, .05);
+    margin-right: 5%;
+}
+
+.navbar .dropdown-menu a {
+	color: #777;
+	padding: 8px 20px;
+	line-height: normal;
+}
+
+.navbar .dropdown-menu a:hover, .navbar .dropdown-menu a:active {
+	color: #333;
+}
+
+.navbar .dropdown-item .material-icons {
+	font-size: 21px;
+	line-height: 16px;
+	vertical-align: middle;
+	margin-top: -2px;
+}
+
+.navbar .badge {
+	color: #fff;
+	background: #f44336;
+	font-size: 11px;
+	border-radius: 20px;
+	position: absolute;
+	min-width: 10px;
+	padding: 4px 6px 0;
+	min-height: 18px;
+	top: 5px;
+}
+
+	.navbar a.notifications, .navbar a.messages {
+		position: relative;
+		margin-right: 10px;
+	}
+
+	.navbar a.messages {
+		margin-right: 10px;
+	}
+
+	.navbar a.notifications .badge {
+		margin-left: -8px;
+	}
+
+	.navbar a.messages .badge {
+		margin-left: -4px;
+	}
+
+	.navbar .active a, .navbar .active a:hover, .navbar .active a:focus {
+		background: transparent !important;
+	}

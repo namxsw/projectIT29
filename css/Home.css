@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@300&display=swap');
+
+body {
+  background-color: #fff9f3 !important;
+  font-family: 'Mitr', sans-serif !important;
+}
+
+.header{
+    color: #97372f;
+    text-align: center;
+}
+
+h5{
+    margin-left: 1700px;
+    margin-top: -50px;
+    color: #97372f;
+}
+
+.nav-item{
+    text-align: center;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+.item img{
+    margin-top: 15px;
+    width: 120px;
+}
+
+.item h2{
+    text-align: center;
+    position: relative;
+    margin-top: 2rem;
+    margin-left: 5px;
+    color: #97372f;
+}
+
+/* banner */
+.carousel-inner{
+    height: 400px;
+}
+
+.title h3{
+    margin-top: 30px;
+}
+
+.post h4{
+    margin-top: 50px;
+    margin-left: 590px;
+}
+
+.post h5{
+    margin-top: 25px;
+    margin-left: 590px;
+    color: blue;
+}
+
+.detail h6{
+    margin-left: 1000px;
+}
+
+
+@media(max-width: 1200px) {
+    .carousel-inner {
+        height: auto;
+    }
+}
+
+@media(max-width: 992px) {
+
+    .search-brn {
+       align-items: center !important;
+       padding-left: 20%;
+    }
+
+    .form-control{
+        width: 78% !important;
+    }
+
+    .post{
+        margin-bottom: 50px !important;
+    }
+
+    .btn-detail{
+       position:block;
+    }
+
+}
+
+
+
+@media(max-width: 720px) {}
+
+
+@media(max-width: 648px) {}
