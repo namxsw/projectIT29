@@ -6,6 +6,12 @@ body {
   /* margin: 30px 68px 20px 146px !important; */
   /* min-width: 370px; */
 }
+
+.row label{
+    color: #97372f;
+    font-size: 20px;
+}
+
 /* กรอบ */
 .appeal-container {
     margin-left: 250px;
@@ -128,6 +134,19 @@ footer p {
     height: 60px;
 }
 
+.selectpicker {
+    max-height: 222px;
+    /* overflow: hidden; */
+    position: absolute;
+    will-change: transform;
+    top: 0px;
+    left: 0px;
+    transform: translate3d(10px, 41px, 0px);
+}
+
+input[type=file]::file-selector-button:hover {
+    background-color: var(--lightblue) !important;
+  }
 
 
 @media(max-width: 992px) {
@@ -158,3 +177,4 @@ footer p {
     }
 
 }
+
