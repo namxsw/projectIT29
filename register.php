@@ -180,11 +180,10 @@
 
               <?php
               include "./config/db.php";
-
-              $userid = $_SESSION['User_id'];
-              $sqlqry = "SELECT * FROM user WHERE (user_id = '$userid') ";
-              $qry = mysqli_query($conn, $sqlqry);
-              $row = mysqli_fetch_array($qry);
+              // $userid = $_SESSION['User_id'];
+              // $sqlqry = "SELECT * FROM user WHERE (user_id = '$userid') ";
+              // $qry = mysqli_query($conn, $sqlqry);
+              // $row = mysqli_fetch_array($qry);
 
               $query_usType = "SELECT * FROM usertype ORDER BY UserType_Id ";
               $result_usType = mysqli_query($conn, $query_usType);

@@ -148,8 +148,8 @@
                                 <input type="text" aria-label="First name" class="form-control from-input-text" value="<?php echo $row['user_dept']; ?>">
                             </div>
                             <div class="col-md-4">
-                                <label for="exampleFormControlInput1" class="form-label">เกรด :</label>
-                                <input type="text" aria-label="First name" class="form-control from-input-text" value="<?php echo $row['user_dept']; ?>">
+                                <label for="exampleFormControlInput1" class="form-label">เกรดเฉลี่ย :</label>
+                                <input type="text" aria-label="classyear" class="form-control from-input-text" value="<?php echo $row['user_grad']; ?>">
                             </div>
                         </div>
 
