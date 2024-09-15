@@ -35,7 +35,7 @@
         <div class="appeal-content">
             <div class="appeal-content-info">
                 <div class="applybox">
-                    <h1 id="headline">ใบสมัครงาน (นักศึกษา)</h1>
+                    <h3 id="headline">ใบสมัครงาน(นักศึกษา)</h3>
                     <form id="applyform" method="POST" enctype="multipart/form-data">
                         <div class="form-outer" style="overflow: visible;">
 
@@ -45,16 +45,15 @@
                                 <div class="progress p-0 my-2">
                                     <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Basic example" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">1/2 </div>
                                 </div>
-                                <div>
+                                <!-- <div>
                                     <input type="radio" id="huey" name="gen" value="ชาย" checked>
                                     <label for="huey">ชาย</label>
                                     <input type="radio" id="dewey" name="gen" value="หญิง">
                                     <label for="dewey">หญิง</label>
-                                </div>
-                                <div class="des_input">เลขประจำประตัวชาชน</div>
-                                <input class="sqr-input col-12 form-control" type="text" placeholder="เลขประจำตัวประชาชน" name="cardid" required maxlength="13">
-                                <div class="jobtype">
-                                    <label for="jobtype" class="form-label">คำนำหน้า</label>
+                                </div> -->
+                                
+                                <div class="prefix mt-3 col-12">
+                                    <label for="prefix" class="form-label">คำนำหน้า</label>
                                     <select class="form-select" name="prefix" aria-label="Default select example">
                                         <option selected>เลือกคำนำหน้า</option>
                                         <option value="นาย">นาย</option>
@@ -62,8 +61,13 @@
                                         <option value="นางสาว">นางสาว</option>
                                     </select>
                                 </div>
+
+                                
+
+                                
+                                
                                 <div class="des_input">ชื่อ</div>
-                                <input class="sqr-input col-12 form-control" type="text" value="<?php echo $row['User_Fname']; ?>" placeholder="ชื่อ" name="fname" required />
+                                <input class="sqr-input  form-control" type="text" value="<?php echo $row['User_Fname']; ?>" placeholder="ชื่อ" name="fname" required />
                                 <div class="des_input">นามสกุล</div>
                                 <input class="sqr-input col-12 form-control" value="<?php echo $row['User_Lname']; ?>" type="text" placeholder="นามสกุล" name="lname" required />
                                 <div class="des_input">วันเกิด</div>

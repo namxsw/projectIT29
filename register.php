@@ -17,9 +17,9 @@
 
   <!-- js datatable -->
   <script src=" https://code.jquery.com/jquery-3.5.1.js"></script>
-            <!-- bootstrap -->
-            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
 
 
@@ -123,8 +123,8 @@
                 </div>
                 <label for="exampleFormControlInput1" class="form-label  mt-3">รูปโปรไฟล์ :</label>
                 <div class="input-group mb-3">
-                  
-                <!-- <span class="input-group-text" id="inputGroup-sizing-default">รูปโปรไฟล์</span> -->
+
+                  <!-- <span class="input-group-text" id="inputGroup-sizing-default">รูปโปรไฟล์</span> -->
                   <input class="sqr-input col-12 form-control " style="margin-left: -1px;" type="file" placeholder="รูปภาพ" name="picc">
                 </div>
                 <div class="mb-3 ">
@@ -180,11 +180,10 @@
 
               <?php
               include "./config/db.php";
-
-              $userid = $_SESSION['User_id'];
-              $sqlqry = "SELECT * FROM user WHERE (user_id = '$userid') ";
-              $qry = mysqli_query($conn, $sqlqry);
-              $row = mysqli_fetch_array($qry);
+              // $userid = $_SESSION['User_id'];
+              // $sqlqry = "SELECT * FROM user WHERE (user_id = '$userid') ";
+              // $qry = mysqli_query($conn, $sqlqry);
+              // $row = mysqli_fetch_array($qry);
 
               $query_usType = "SELECT * FROM usertype ORDER BY UserType_Id ";
               $result_usType = mysqli_query($conn, $query_usType);
@@ -219,7 +218,8 @@
                   <label for="exampleFormControlInput1" class="form-label">ส่วนสูง :</label>
                   <input type="text" class="form-control" name="heig" aria-describedby="heig">
                 </div>
-                <div class="mb-3 " style="float: left;">
+
+                <div class="mb-3">
                   <label for="exampleFormControlInput1" class="form-label">บ้านเลขที่ :</label>
                   <input type="text" class="form-control" name="HouseNo" aria-describedby="HouseNo">
                 </div>
@@ -245,6 +245,7 @@
                   </select>
                 </div>
 
+                
                 <div class="mb-3">
                   <label for="exampleFormControlInput1" class="form-label">อำเภอ/เขต :</label>
                   <select name="amphure_id" id="amphure" class="form-control selectpicker" data-live-search="true" data-width="100%" data-size="5" title="เลือกอำเภอ/เขต">
